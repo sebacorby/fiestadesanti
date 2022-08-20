@@ -1,0 +1,144 @@
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+form {
+	width:98%;
+	background:#FAFAFA;
+
+	margin:10px;
+	padding:10px;
+	box-sizing: border-box;
+	
+	}
+	
+	.formAdmin {
+	width:90%;
+	background:#f5f5f5;
+	border:1px;
+	border-style:solid;
+	border-color:#ccc;
+	margin:10px;
+	padding:10px;
+	box-sizing: border-box;
+	text-align:center;
+	border-radius:10px;
+	
+	}
+	
+	
+	label{
+		color:#000;
+		font-size:14px;
+		display:block;
+		width:100%;
+		padding:10px;
+		}
+		
+		textarea{
+			resize:vertical;
+			max-height:150px;
+			min-height:100px;
+		}
+		
+
+	input, textarea{
+		margin-bottom:10px;
+		 width:100%;
+		padding:10px;
+		box-sizing: border-box;
+		border:1px;
+		border-style:solid;
+		border-color:#CCC;
+		
+			font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:1.4;
+	color:#74ab00;
+		
+		}
+
+	input:focus, textarea:focus{
+		border:1px color:#1668c4;}
+		
+		
+
+input[type="submit"]{
+			font-size:17px;
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			margin-bottom:0px;
+			background:#74ab00;
+			border:none;
+			color:#fff;
+            width:30%; 
+			margin-top: 20px
+                 
+}
+			
+			
+		input[type="submit"]:hover{
+			background:#690;
+			cursor:pointer;
+		}
+		
+
+
+/* Cambio los Colores del Placeholder de los Formularios*/		
+		::-webkit-input-placeholder {
+   color: #0073b2;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #0073b2;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #0073b2;  
+}
+
+:-ms-input-placeholder {  
+   color: #0073b2;  
+}
+
+
+select{
+		color:#000;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:17px;
+	
+		width:30%;
+		padding:10px;
+		}
+
+
+
+/* # PARA CELULARES 400
+*****************************************/
+@media screen and (max-width: 768px){
+	
+	
+	
+	form {
+	width:100%;
+	background:#FAFAFA;
+
+	
+	padding:10px;
+	box-sizing: border-box;
+	
+	}
+	
+	select{
+		color:#000;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		font-size:17px;
+	
+		width:90%;
+		padding:10px;
+		margin-bottom: 10px;
+		}
+	
+}
+	
+
+

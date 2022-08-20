@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+/*****************************/
+/* TEXOTOS APPS NUEVOS 2020 */
+/* Este archivo controla todos los textos de la App y de la Web.
+/* Al modificar se modificara todo.
+/*****************************/
+
+a:link {text-decoration: none }
+a:hover { text-decoration: none }
+a:visited {text-decoration: none }
+
+
+h1{
+	margin:0;
+  width: auto;
+  margin: 0px;
+  padding:10px;
+  font-family: 'Raleway', sans-serif;
+  font-size:1.8em;
+  font-style:normal;
+  line-height: 1.2;
+  color:#333;
+}
+
+
+h3{
+	margin:0;
+  width: auto;
+  margin: 0px;
+  padding:10px;
+  font-family: 'Raleway', sans-serif;
+  font-size:1.2em;
+  font-style:normal;
+  line-height: 1.2;
+  color:#333;
+}
+
+.icono-home-app{
+	font-size: 24px;
+	text-align: right;
+	margin-top: -23px;
+	color:#F60;
+  text-decoration: none;
+  padding-right: 10px;
+	}
+	
+.icono-home-eventos-hoy{
+	font-size: 24px;
+	text-align: right;
+	margin-top: -23px;
+	color:#F60;
+  text-decoration: none;
+  padding-right: 45px;
+	}
+
+.super-titulo-app {
+  width: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size:2.2em;
+  font-style:normal;
+  line-height: 1.2;
+  color:#333;
+}
+
+.gran-titulo-app {
+  width: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size:2em;
+  font-style:normal;
+  line-height: 1.2;
+  color:#333;
+}
+
+
+.titulo-app {
+  width: auto;
+  /*margin-left:10px;*/
+  font-family: 'Raleway', sans-serif;
+  font-size:1.4em;
+  font-style:normal;
+  line-height: 1.2;
+  color:#333;
+}
+
+.subtitulo-app {
+  width: auto;
+  /* margin-left:10px; */ 
+  font-family: 'Raleway', sans-serif;
+  font-size:1.2em;
+  font-weight: bold;
+  line-height: 1.4; /* estaba en 2.5 */
+  color:#333;
+}
+
+
+.texto-app-info {
+  width: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size:1em;
+  font-style:normal;
+  text-decoration:none;
+  line-height: 1.5;
+  color:#333;
+}
+
+.item-app {
+  width: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size:0.9em;
+  font-style:normal;
+  line-height: 1.5;
+  color:#333;
+}
+
+.item-app-arial {
+  width: auto;
+  font-family: 'arial', sans-serif;
+  font-size:0.9em;
+  font-style:normal;
+  line-height: 1.5;
+  color:#333;
+}
+
+
+.mini-item-app {
+  width: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size:0.8em;
+  font-style:normal;
+  line-height: 1.2;
+  color:#333;
+}
+
+.div-blanco-basico{
+  width:100%;
+	height:auto;
+	background-color:white;
+	padding:50px 100px 50px 100px;
+	overflow:hidden;
+	box-sizing: border-box;
+}
+
+/*************************/
+/* mybutton */
+/*************************/
+.myButton {
+	box-shadow: 0px 0px 0px 0px #fce2c1;
+	background-color:#ffc477;
+	border-radius:28px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:24px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+}
+.myButton:hover {
+	background-color:#fb9e25;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Recuadro Info Uso App
+*****************************************/
+.reuadro-texto-app{
+	width: 100%;
+	height: auto;
+	overflow:hidden;
+	box-sizing: border-box;
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+}
