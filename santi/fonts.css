@@ -371,10 +371,6 @@
 	content: "\e656";
 }
 
-.icon-add-user:before {
-	content: "\e657";
-}
-
 .icon-address:before {
 	content: "\e658";
 }
@@ -505,10 +501,6 @@
 
 .icon-calculator:before {
 	content: "\e678";
-}
-
-.icon-calendar:before {
-	content: "\e679";
 }
 
 .icon-camera:before {
